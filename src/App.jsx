@@ -1,8 +1,10 @@
+import DrawerAppBar from './components/appBar.component.jsx';
+
 function App() {
   return (
-    <div>
-      <h1>hello</h1>
-    </div>
+    <>
+      <DrawerAppBar />
+    </>
   );
 }
 
