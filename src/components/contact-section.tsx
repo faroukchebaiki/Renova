@@ -59,7 +59,7 @@ export function ContactSection() {
                       <h4 className="font-semibold mb-1">Our Location</h4>
                       <p className="text-gray-600">
                         123 Construction Way,<br />
-                        Vancouver, BC, Canada
+                        a place, BC, Canada
                       </p>
                     </div>
                   </div>
@@ -68,7 +68,7 @@ export function ContactSection() {
                     <Phone className="text-blue-600 shrink-0 mt-1" size={20} />
                     <div>
                       <h4 className="font-semibold mb-1">Phone</h4>
-                      <p className="text-gray-600">(604) 555-1234</p>
+                      <p className="text-gray-600">(505) 1234-1234</p>
                     </div>
                   </div>
 
@@ -76,7 +76,7 @@ export function ContactSection() {
                     <Mail className="text-blue-600 shrink-0 mt-1" size={20} />
                     <div>
                       <h4 className="font-semibold mb-1">Email</h4>
-                      <p className="text-gray-600">info@wfdesignbuild.com</p>
+                      <p className="text-gray-600">contact@example.com</p>
                     </div>
                   </div>
 

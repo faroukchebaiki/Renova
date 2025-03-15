@@ -11,8 +11,6 @@ import { Menu } from "lucide-react";
 const navItems = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },
-  { href: "/services", label: "Services" },
-  { href: "/projects", label: "Projects" },
   { href: "/contact", label: "Contact" },
 ];
 
@@ -68,9 +66,11 @@ export function Navbar() {
               {item.label}
             </Link>
           ))}
-          <Button className={`${buttonStyle} hover:bg-blue-700 hover:text-white`}>
-            Get a Quote
-          </Button>
+          <Link href="/contact#contact">
+            <Button className={`${buttonStyle} hover:bg-blue-700 hover:text-white`}>
+              Get a Quote
+            </Button>
+          </Link>
         </div>
 
         {/* Mobile Navigation */}
@@ -84,13 +84,10 @@ export function Navbar() {
             </SheetTrigger>
             <SheetContent side="right" className="w-[300px] sm:w-[400px]">
               <div className="mt-6 mb-8">
-                <Image
-                  src="/logo.svg"
-                  alt="WF Design + Build"
-                  width={150}
-                  height={40}
-                  className="object-contain"
-                />
+                  <h1 className="${textColor} font-bold text-4xl" >
+                    <span className="text-blue-400" >RE</span>
+                    <span className="text-yellow-400">nova</span>
+                  </h1>
               </div>
               <nav className="flex flex-col gap-6">
                 {navItems.map((item) => (
@@ -104,9 +101,11 @@ export function Navbar() {
                     {item.label}
                   </Link>
                 ))}
+                <Link href="/contact#contact">
                 <Button className="mt-2 bg-blue-600 hover:bg-blue-700 text-white">
                   Get a Quote
                 </Button>
+                </Link>
               </nav>
             </SheetContent>
           </Sheet>

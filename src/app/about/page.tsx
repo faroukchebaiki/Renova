@@ -23,7 +23,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              About WF Design + Build
+              About REnova Design + Build
             </h1>
             <p className="text-xl text-white/80 leading-relaxed">
               We are a premier design and construction company dedicated to
@@ -40,7 +40,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative h-[500px] rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="https://images.unsplash.com/photo-1540749837070-2c417adc1ac1?q=80&w=800&auto=format&fit=crop"
+                src="https://images.unsplash.com/photo-1493397212122-2b85dda8106b?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Our Company Story"
                 fill
                 className="object-cover"
@@ -54,7 +54,7 @@ export default function AboutPage() {
                 Building Excellence Since 2010
               </h3>
               <p className="text-gray-700 mb-6 text-lg">
-                Founded by Warren Friesen, WF Design + Build began with a simple mission:
+                Founded by Warren Friesen, REnova Design + Build began with a simple mission:
                 to deliver high-quality construction services with integrity and
                 excellence. With decades of experience in the construction industry,
                 Warren established the company to provide a more personalized approach
@@ -66,7 +66,7 @@ export default function AboutPage() {
                 commitment to quality and client satisfaction remains unwavering.
               </p>
               <p className="text-gray-700 text-lg">
-                Today, WF Design + Build is known for its innovative designs,
+                Today, REnova Design + Build is known for its innovative designs,
                 exceptional craftsmanship, and ability to transform spaces into
                 functional, beautiful environments that exceed client expectations.
               </p>
@@ -86,7 +86,7 @@ export default function AboutPage() {
               What Drives Us Forward
             </h3>
             <p className="text-xl text-gray-700 max-w-3xl">
-              At WF Design + Build, we are guided by our commitment to quality,
+              At REnova Design + Build, we are guided by our commitment to quality,
               integrity, and client satisfaction in everything we do.
             </p>
           </div>

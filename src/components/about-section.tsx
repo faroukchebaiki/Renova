@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { ChevronRight } from "lucide-react";
+import Link from "next/link";
 
 export function AboutSection() {
   return (
@@ -10,8 +11,8 @@ export function AboutSection() {
           {/* Image */}
           <div className="relative h-[500px] rounded-lg overflow-hidden shadow-xl">
             <Image
-              src="https://images.unsplash.com/photo-1556156653-e5a7676c4821?q=80&w=800&auto=format&fit=crop"
-              alt="WF Design + Build Team"
+              src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="REnova Design + Build Team"
               fill
               className="object-cover"
             />
@@ -23,7 +24,7 @@ export function AboutSection() {
             <h3 className="text-3xl md:text-4xl font-bold mb-6">Expert Design and Construction Services</h3>
 
             <p className="text-gray-700 mb-6 text-lg">
-              WF Design + Build is a premier design and construction company specializing in residential projects,
+              REnova Design + Build is a premier design and construction company specializing in residential projects,
               secondary suites, and tenant improvements. Led by Warren Friesen, our dedicated team brings decades of
               combined experience to every project.
             </p>
@@ -48,10 +49,11 @@ export function AboutSection() {
                 <p className="text-gray-700"><span className="font-semibold">Customer Satisfaction:</span> Your vision and satisfaction are our top priorities.</p>
               </div>
             </div>
-
+            <Link href="/about#about">
             <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
               Learn More About Us
             </Button>
+            </Link>
           </div>
         </div>
       </div>

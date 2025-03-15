@@ -8,10 +8,11 @@ export function Footer() {
   return (
     <footer className="bg-slate-900 text-white">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2  gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-bold mb-4">WF DESIGN <span className="text-yellow-400">+</span> BUILD</h3>
+            <h3 className="text-xl font-bold mb-4"><span className="text-blue-400" >RE</span>
+            <span className="text-yellow-400">nova</span> DESIGN <span className="text-yellow-400">+</span> BUILD</h3>
             <p className="text-slate-300 mb-4">
               Expert design and build services for residential projects, secondary suites, and tenant improvements.
             </p>
@@ -28,69 +29,9 @@ export function Footer() {
             </div>
           </div>
 
-          {/* Quick Links */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link href="/" className="text-slate-300 hover:text-white transition-colors">
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link href="/about" className="text-slate-300 hover:text-white transition-colors">
-                  About Us
-                </Link>
-              </li>
-              <li>
-                <Link href="/services" className="text-slate-300 hover:text-white transition-colors">
-                  Our Services
-                </Link>
-              </li>
-              <li>
-                <Link href="/projects" className="text-slate-300 hover:text-white transition-colors">
-                  Projects
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact" className="text-slate-300 hover:text-white transition-colors">
-                  Contact
-                </Link>
-              </li>
-            </ul>
-          </div>
+          
 
-          {/* Services */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Our Services</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link href="/services#residential" className="text-slate-300 hover:text-white transition-colors">
-                  Residential Construction
-                </Link>
-              </li>
-              <li>
-                <Link href="/services#renovations" className="text-slate-300 hover:text-white transition-colors">
-                  Renovations
-                </Link>
-              </li>
-              <li>
-                <Link href="/services#secondary-suites" className="text-slate-300 hover:text-white transition-colors">
-                  Secondary Suites
-                </Link>
-              </li>
-              <li>
-                <Link href="/services#tenant-improvements" className="text-slate-300 hover:text-white transition-colors">
-                  Tenant Improvements
-                </Link>
-              </li>
-              <li>
-                <Link href="/services#custom-homes" className="text-slate-300 hover:text-white transition-colors">
-                  Custom Homes
-                </Link>
-              </li>
-            </ul>
-          </div>
+        
 
           {/* Contact Info */}
           <div>
@@ -119,7 +60,7 @@ export function Footer() {
 
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-slate-400 text-sm">
-            © {currentYear} WF Design + Build. All rights reserved.
+            © {currentYear} REnova Design + Build. All rights reserved.
           </p>
           <div className="mt-4 md:mt-0">
             <ul className="flex space-x-6 text-sm">

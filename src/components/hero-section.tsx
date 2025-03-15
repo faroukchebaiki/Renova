@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { ChevronRight } from "lucide-react";
+import Link from "next/link";
 
 const slides = [
   {
@@ -68,12 +69,11 @@ export function HeroSection() {
               {slides[currentSlide].subtitle}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
+            <Link href="/contact#contact">
               <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-lg">
                 Get in Touch
               </Button>
-              <Button size="lg" variant="outline" className="text-white border-white hover:bg-white/10 text-lg">
-                View Projects <ChevronRight className="ml-2 h-5 w-5" />
-              </Button>
+              </Link>
             </div>
           </div>
         </div>

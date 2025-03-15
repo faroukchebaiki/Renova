@@ -8,31 +8,31 @@ const services = [
     icon: <Home className="h-10 w-10 text-blue-600" />,
     title: "Residential Construction",
     description: "Custom home construction with attention to detail and quality craftsmanship for your dream home.",
-    link: "/services#residential"
+    link: "#services"
   },
   {
     icon: <RefreshCw className="h-10 w-10 text-blue-600" />,
     title: "Renovations",
     description: "Transform your existing space with our comprehensive renovation services for any room or area.",
-    link: "/services#renovations"
+    link: "#services"
   },
   {
     icon: <Building className="h-10 w-10 text-blue-600" />,
     title: "Secondary Suites",
     description: "Add value to your property with legal secondary suites designed for comfort and functionality.",
-    link: "/services#secondary-suites"
+    link: "#services"
   },
   {
     icon: <Wrench className="h-10 w-10 text-blue-600" />,
     title: "Tenant Improvements",
     description: "Commercial space renovations and improvements to meet your business needs and requirements.",
-    link: "/services#tenant-improvements"
+    link: "#services"
   },
   {
     icon: <Ruler className="h-10 w-10 text-blue-600" />,
     title: "Custom Design",
     description: "Architectural design services that blend aesthetics, functionality, and structural integrity.",
-    link: "/services#custom-design"
+    link: "#services"
   }
 ];
 
