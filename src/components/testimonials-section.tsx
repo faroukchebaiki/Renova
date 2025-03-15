@@ -6,28 +6,28 @@ const testimonials = [
     id: 1,
     name: "Sarah Johnson",
     role: "Homeowner",
-    content: "WF Design + Build transformed our outdated home into a modern masterpiece. Their attention to detail and commitment to quality exceeded our expectations. The team was professional, responsive, and a pleasure to work with throughout the entire process.",
+    content: "REnova Design + Build transformed our outdated home into a modern masterpiece. Their attention to detail and commitment to quality exceeded our expectations. The team was professional, responsive, and a pleasure to work with throughout the entire process.",
     rating: 5
   },
   {
     id: 2,
     name: "David Chen",
     role: "Business Owner",
-    content: "We hired WF Design + Build for our retail store renovation, and the results were outstanding. They understood our vision perfectly and executed it with precision. The project was completed on time and within budget, making it a stress-free experience.",
+    content: "We hired REnova Design + Build for our retail store renovation, and the results were outstanding. They understood our vision perfectly and executed it with precision. The project was completed on time and within budget, making it a stress-free experience.",
     rating: 5
   },
   {
     id: 3,
     name: "Emily Thompson",
     role: "Homeowner",
-    content: "The secondary suite WF Design + Build created for our home is beautifully designed and perfectly functional. Their team provided excellent suggestions that enhanced the final result, and the craftsmanship is exceptional.",
+    content: "The secondary suite REnova Design + Build created for our home is beautifully designed and perfectly functional. Their team provided excellent suggestions that enhanced the final result, and the craftsmanship is exceptional.",
     rating: 5
   },
   {
     id: 4,
     name: "Michael Roberts",
     role: "Property Developer",
-    content: "I've worked with many construction companies over the years, and WF Design + Build stands out for their reliability and quality of work. Their team's expertise in both design and construction makes the entire process seamless.",
+    content: "I've worked with many construction companies over the years, and REnova Design + Build stands out for their reliability and quality of work. Their team's expertise in both design and construction makes the entire process seamless.",
     rating: 4
   }
 ];

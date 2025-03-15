@@ -50,7 +50,7 @@ export function Footer() {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="text-blue-400 shrink-0" size={18} />
-                <span className="text-slate-300">info@wfdesignbuild.com</span>
+                <span className="text-slate-300">contact@example.com</span>
               </div>
             </div>
           </div>
