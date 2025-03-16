@@ -60,7 +60,8 @@ export function Footer() {
 
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-slate-400 text-sm">
-            © {currentYear} REnova Design + Build. All rights reserved.
+            {currentYear} this website was created by <span className="text-yellow-400 hover:underline"><Link href="https://github.com/faroukchebaiki">farouk chebaiki</Link></span>.
+          feel free to use it as a template for your projects.
           </p>
           <div className="mt-4 md:mt-0">
             <ul className="flex space-x-6 text-sm">

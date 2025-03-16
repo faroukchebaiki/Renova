@@ -4,6 +4,7 @@ import "./globals.css";
 import ClientBody from "./ClientBody";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
+import SlidingCard from "@/components/SlidingCard";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -16,8 +17,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "WF Design + Build | Expert Design & Construction Services",
-  description: "WF Design + Build offers professional design and construction services specializing in residential projects, secondary suites, and tenant improvements in Vancouver, BC.",
+  title: "REnova Design + Build | Expert Design & Construction Services",
+  description: "Renova Design + Build offers professional design and construction services specializing in residential projects, secondary suites, and tenant improvements in Vancouver, BC.",
 };
 
 export default function RootLayout({
@@ -28,6 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
       <ClientBody>
+        
         <div className="flex flex-col min-h-screen">
           <Navbar />
           <div className="flex-grow">
